@@ -10,9 +10,12 @@
         
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
-            <a href="index" class="navbar-brand">
-                <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>ILS Academy</h1>
+           <div class="col-lg-3">
+           <a href="index">
+                <img src="img/logo.png" alt=""style="width:100%;padding-bottom:5px;">
+                <!-- <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>ILS Academy</h1> -->
             </a>
+           </div>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
