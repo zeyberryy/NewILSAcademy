@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Skip rewriting for existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite requests to add .php extension internally
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
