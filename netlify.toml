@@ -1,5 +1,5 @@
 [build]
   command = "composer install && php index.php"
   publish = "public/"
-  environment = { PHP_VERSION = "8.0" } # Specify PHP version 8.0
+  environment = { PHP_VERSION = "8.0" }
 
