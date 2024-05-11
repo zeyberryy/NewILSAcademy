@@ -2,5 +2,5 @@
   command = "composer install && php index.php"
   publish = "public/"
   environment = { PHP_VERSION = "8.0" }
-  # Update
+
 
