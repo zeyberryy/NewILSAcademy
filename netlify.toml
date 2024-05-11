@@ -1,3 +1,4 @@
 [build]
   command = "composer install && php index.php"
   publish = "public/"
+  environment = { PHP_VERSION = "7.2" } # Specify PHP version 7.2
