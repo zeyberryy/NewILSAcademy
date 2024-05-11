@@ -4,7 +4,7 @@
     }
 }
 {
-  "name": "zeyberryy/NewILSAcademy",
+  "name": "NewILSAcademy",
   "version": "1.0.0",
   "scripts": {
     "build": "npm run build"
