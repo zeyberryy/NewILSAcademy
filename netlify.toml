@@ -1,8 +1,8 @@
 [build]
-  base = "public"  # Set the base directory to where your package.json is located
-  command = "npm run build"  # Specify the build command
+  base = "/"  # Set the base directory to the root
+  command = "cd public && npm run build"  # Change directory to public and then run npm build
   publish = "public"  # Specify the directory from which files will be deployed
-  functions = "public/netlify/functions" 
+  functions = "public/netlify/functions"  # Specify the directory for Netlify Functions
   environment = { PHP_VERSION = "8.0" }
 
 [context.production]
