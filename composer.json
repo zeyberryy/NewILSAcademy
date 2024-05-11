@@ -1,0 +1,6 @@
+{
+    "name": "NewILSAcademy",
+    "require": {
+        "php": "^7.2"
+    }
+}
