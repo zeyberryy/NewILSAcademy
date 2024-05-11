@@ -1,7 +1,7 @@
 [build]
-  base = "/opt/build/repo"
-  command = "mkdir -p public && composer install && php index.php"
+  base = "public"
   publish = "public"
+  functions = "public/netlify/functions"
   environment = { PHP_VERSION = "8.0" }
 
 [context.production]
