@@ -1,6 +1,7 @@
 [build]
-  command = "composer install && php index.php"
-  publish = "public" # Update to your correct publish directory
+  base = "/opt/build/repo"
+  command = "mkdir -p public && composer install && php index.php"
+  publish = "public"
   environment = { PHP_VERSION = "8.0" }
 
 [context.production]
