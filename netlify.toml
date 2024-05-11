@@ -1,6 +1,15 @@
 [build]
   command = "composer install && php index.php"
-  publish = "public/"
+  publish = "public" # Update to your correct publish directory
   environment = { PHP_VERSION = "8.0" }
+
+[context.production]
+  base = "/"
+  publish = "public" # Update to your correct publish directory
+
+[context.deploy-preview]
+  base = "/"
+  publish = "public" # Update to your correct publish directory
+
 
 
