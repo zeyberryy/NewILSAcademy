@@ -2,16 +2,8 @@
   base = "/"  # Set the base directory to the root
   command = "npm run build"  # Run npm build directly without changing directories
   publish = "public"  # Specify the directory from which files will be deployed
-  functions = "public/netlify/functions"  
+  functions = "netlify/functions"  # Specify the directory for Netlify Functions  
   environment = { PHP_VERSION = "8.0" }
-
-[context.production]
-  base = "/"
-  publish = "public" # Update to your correct publish directory
-
-[context.deploy-preview]
-  base = "/"
-  publish = "public" # Update to your correct directory
 
 
 
